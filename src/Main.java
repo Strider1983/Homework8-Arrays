@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Массивы. Урок 1");
@@ -26,5 +28,8 @@ public class Main {
         System.out.println("Длина массива - " + mass.length + " элементов");
         System.out.println("_______________");
         System.out.println("Задача №2");
-    }
+        System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.toString(fractionals));
+        System.out.println(Arrays.toString(mass));
+        }
     }
