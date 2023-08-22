@@ -28,9 +28,27 @@ public class Main {
         System.out.println("Длина массива - " + mass.length + " элементов");
         System.out.println("_______________");
         System.out.println("Задача №2");
-        System.out.println(Arrays.toString(numbers));
-        System.out.println(Arrays.toString(fractionals));
-        System.out.println(Arrays.toString(mass));
+        for (int d1 = 0; d1 < numbers.length; d1++) {
+            if (d1 == numbers.length - 1) {
+                System.out.println(numbers[d1]);
+                break;
+            }
+            System.out.print(numbers[d1] + ", ");
+        }
+        for (int d2 = 0; d2 < fractionals.length; d2++) {
+            if (d2 == fractionals.length - 1) {
+                System.out.println(fractionals[d2]);
+                break;
+            }
+            System.out.print(fractionals[d2] + ", ");
+        }
+        for (int d3 = 0; d3 < mass.length; d3++) {
+            if (d3 == mass.length - 1) {
+                System.out.println(mass[d3]);
+                break;
+            }
+            System.out.print(mass[d3] + ", ");
+        }
         System.out.println("_______________");
         System.out.println("Задача №3");
         for (int i1 = numbers.length - 1; i1 >= 0; i1 = i1 - 1) {
