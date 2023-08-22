@@ -54,5 +54,14 @@ public class Main {
             }
             System.out.print(mass[i3] + ", ");
         }
+        System.out.println("_______________");
+        System.out.println("Задача №4");
+        int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        for (int s = 0; s < array.length; s++) {
+            if (array[s] % 2 > 0) {
+                array[s] = array[s] + 1;
+            }
+        }
+        System.out.print(Arrays.toString(array));
     }
 }
